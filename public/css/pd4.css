@@ -1,0 +1,101 @@
+
+   
+/* header {
+      position: fixed; 
+        top: -60px;
+        margin-left: -40px;
+        right: 0px; 
+        height: 50px;
+        display: inline;
+        vertical-align: top;
+        color: black;
+        text-align: left;
+        line-height: 35px;
+    }
+    .cabder{
+        font-size: 10px;
+
+        top: -60px;
+        float: right;
+    }
+    .pagenum:before {
+        content: counter(page);
+    }
+    footer {
+        position: fixed; 
+        bottom: -60px; 
+        left: 0px; 
+        right: 0px;
+        height: 50px; 
+        color: black;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+ body {
+     
+    font-family: 'Calibri' , sans-serif;
+    font-size: 14px; 
+   
+    
+} 
+hr{
+page-break-after: always;
+border: none;
+margin: 0;
+padding: 0;
+}
+.titulopdf{
+    text-align: center;
+}
+.firmas{
+font-size:10px;
+text-align: left;
+display: inline-block;
+vertical-align: top;
+
+}
+.acron{
+ font-size:6px;
+ text-align: left;
+ display: inline;
+}
+.cuerpo{
+    text-align: justify;
+}
+ul.viñetas {
+display: inline-block;
+padding: 0;
+text-align: center;
+}
+ul.viñetas li {
+display: inline;
+}
+ul.viñetas li:after {
+content: " ";
+letter-spacing: 1em;
+
+
+}
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ } */
