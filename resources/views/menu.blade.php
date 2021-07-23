@@ -24,6 +24,7 @@
   }
     </style>
 <ul>
+    <li> <a href="{{ '/z' }}" class="btn btn-info" style="text-align:right">Prueba footer</a> </li>
    <li>{{-- <span><i class="fas fa-mobile-alt"> </i></span> --}}<a href="{{ '/a' }}" class="btn btn-info" style="text-align:right">Declaracion-Juradas-Fondos</a> </li>
    <li> <a href="{{ '/b' }}" class="btn btn-info" style="text-align:right">{{-- <span class="icon"><img src="img/ubicacion.png"  alt="" width="30"> --}}</span>Autorizacion-datos-personales</a> </li>
    <li> <a href="{{ '/c' }}" class="btn btn-info" style="text-align:right">Credito-Clausula-Testigo-Ruego</a> </li>

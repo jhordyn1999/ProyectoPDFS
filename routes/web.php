@@ -16,6 +16,7 @@
 }); */
 
 Route::get('/','BancaPapayitaController@index');
+Route::get('/z','BancaPapayitaController@generarpdf18');
 Route::get('/a','BancaPapayitaController@generarpdf1');
 Route::get('/b','BancaPapayitaController@generarpdf2');
 Route::get('/c','BancaPapayitaController@generarpdf3');

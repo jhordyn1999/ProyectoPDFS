@@ -12,11 +12,11 @@ class BancaPapayitaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+     public function index()
     {
         return view('menu');
     }
-   /*  public function index1()
+   /* public function index1()
     {
         return view('portada');
     }
@@ -79,8 +79,16 @@ class BancaPapayitaController extends Controller
     public function index16()
     {
         return view('pdf16');
-    } */
-
+    } 
+    public function index17()
+    {
+        return view('pdf17');
+    } 
+    public function index18()
+    {
+        return view('pdf18');
+    } 
+ */
     /**
      * Show the form for creating a new resource.
      *
@@ -162,6 +170,10 @@ class BancaPapayitaController extends Controller
      public function generarpdf17(){
         $pdf = PDF::loadView('pdf17');
         return $pdf->download('Fusion-Iversión.pdf');
+     } 
+     public function generarpdf18(){
+        $pdf = PDF::loadView('pdf18');
+        return $pdf->download('Prueba footer.pdf');
      } 
     public function create()
     {

@@ -129,18 +129,27 @@ th,tr,td{
             margin-top: -6px !important;
     /* //vertical-align: top; */
         }
+        .fot{
+            position: absolute;
+     bottom: -212px;
+     right: -280px;
+     left: 150px;
+     z-index: 999;
+
+        }
     </style>
 
     <header>
         <img src="img/logo.png" alt="" width="100">
     </header>
     <footer>
-     
+        <div class="fot"><img src="img/footverde.png" width="100%" alt="" ></div>
       <p class="txtfooter"> <span class="icon"><img src="img/ubicacion.png"  class="icon" alt="" width="30"></span> Jr. Grau - Huamachuco <span class="icon"><img class="icon" src="img/correo.png" alt="" width="30"></span> consultas@corporacionposible.com <span class="icon"><img src="img/celular.png" class="icon" alt="" width="30"></span> +51914166380</p>
     {{--  <p> Pág. <span class="pagenum"></span> </p>  --}}
     </footer>
 
     <p class="titulopdf"><strong>CARTILLA DE INFORMACION <br> (INVERSIONES)</strong></p>
+    
     <div class="cuerpo">
        
           <p>LA CORPORACION NACIONAL EMPRESARIAL POSIBLE EIRL con RUC: 20605055801 con dirección en Jr. Miguel Grau N°552, distrito de Huamachuco, provincia de Sánchez Carrión, departamento de La Libertad, en adelante <strong>POSSIBLE</strong> , ha recibido de
@@ -358,5 +367,6 @@ La fecha de vencimiento (sólo para INVERSIONES RENOVABLES) es: ……………�
      
 
 </div>
+
 </body>
 </html>
